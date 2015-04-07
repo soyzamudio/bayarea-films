@@ -1,0 +1,21 @@
+nav {
+  padding: 10px;
+  background: #222;
+  color: #f1f1f1;
+  position: static;
+}
+
+nav ul>li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+nav .item {
+  color: #f1f1f1;
+}
+
+nav .item:hover {
+  color: #ddd;
+  text-decoration: none;
+}
