@@ -82,7 +82,7 @@ ul {
 }
 
 .burger {
-  height: 15vh;
+  height: 10vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -158,6 +158,22 @@ ul {
 
 .c-green {
   color: #0f9d58;
+}
+
+.c-youtube {
+  color: #cd201f;
+}
+
+.c-twitter {
+  color: #55ACEE;
+}
+
+.c-facebook {
+  color: #3B5998;
+}
+
+.c-vimeo {
+  color: #1ab7ea;
 }
 
 .b-yellow {
@@ -247,6 +263,12 @@ ul {
 .contact .btn-send:hover {
   background: #fff;
   color: #0f9d58;
+}
+
+.contact .icons {
+  color: #ffffff;
+  font-size: 1.4em;
+  margin-right: 10px;
 }
 
 .contact .input::-webkit-input-placeholder { color: #ccc; }

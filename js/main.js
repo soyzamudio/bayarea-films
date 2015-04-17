@@ -12,9 +12,6 @@ var openMenu = function() {
 
 videojs.options.flash.swf = "http://example.com/path/to/video-js.swf"
 
-// reveal content of first panel by default
-panel.eq(0).find('.panel__content').addClass('panel__content--active');
-
 var scrollFx = function() {
   var ds = doc.scrollTop();
   var of = vh / 4;

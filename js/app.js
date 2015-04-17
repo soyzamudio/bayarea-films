@@ -11,10 +11,10 @@ angular.module('BayareaApp', ['emailit'])
   ];
 
   $scope.sendEmail = function(form) {
-    email.mandrill('DV6iDBf0ZF_bcscqfJalXw', 'zamudio@outlook.com', form.email, form.message, form.subject, form.name)
+    email.mandrill('Zt9VJPNzZOrqVhOrUH3-Uw', 'benhalverson33@gmail.com', form.email, form.message, form.subject, form.name)
     .then(function(response) {
       $scope.successful = true;
-      $timeout(clear, 5000);
+      $timeout(clear, 3000);
     });
   };
 
@@ -22,5 +22,5 @@ angular.module('BayareaApp', ['emailit'])
     $scope.successful = false;
     $scope.form.name = $scope.form.email = $scope.form.subject =$scope.form.message = '';
   }
-  
+
 }]);
