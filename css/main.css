@@ -62,11 +62,12 @@ ul {
   left: 0;
   text-decoration: none;
   font-size: 24px;
-  background: #2b3033;
+  background: #f1f1f1;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .nav__link:hover {
-  background: #262b2d;
+  background: #ddd;
+  color: #222;
 }
 
 .nav__link i.icons {
@@ -88,18 +89,18 @@ ul {
   justify-content: center;
   align-items: center;
   z-index: 2;
-  background: #2b3033;
+  background: #f1f1f1;
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .burger:hover {
-  background: #262b2d;
+  background: #ddd;
 }
 .burger__patty {
   position: relative;
   height: 2px;
   width: 40px;
-  background: white;
+  background: #222;
 }
 .burger__patty:before {
   content: "";
@@ -108,7 +109,7 @@ ul {
   left: 0;
   height: 2px;
   width: 100%;
-  background: white;
+  background: #222;
 }
 .burger__patty:after {
   content: "";
@@ -117,7 +118,7 @@ ul {
   left: 0;
   height: 2px;
   width: 100%;
-  background: white;
+  background: #222;
 }
 .burger__patty, .burger__patty:before, .burger__patty:after {
   will-change: transform;
@@ -280,3 +281,65 @@ ul {
 .contact .textarea:-moz-placeholder { color: #ccc; }
 .contact .textarea::-moz-placeholder { color: #ccc; }
 .contact .textarea:-ms-input-placeholder { color: #ccc; }
+
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+
+    http://www.designbootstrap.com/
+
+    License: MIT
+========================================================  */
+
+.db-pricing-seven {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  border: 1px solid #C5C2C2;
+  background-color: #EDEDED;
+}
+
+.db-pricing-seven:hover {
+  margin-top: 5px;
+  -moz-transition: margin-top 0.25s ease 0s;
+  -ms-transition: margin-top 0.25s ease 0s;
+  transition: margin-top 0.25s ease 0s;
+}
+
+.db-pricing-seven ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.db-pricing-seven ul li {
+  border-bottom: solid 1px #D8D8D8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.db-pricing-seven ul li.price {
+  background-color: #fff;
+  padding: 40px 20px 20px 20px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #353c3e;
+  font-weight: 900;
+}
+
+.db-pricing-seven ul li.price i {
+  padding: 30px;
+  font-size: 50px;
+  display: block;
+}
+
+.db-pricing-seven .pricing-footer {
+  padding: 20px;
+}
+
+.db-pricing-seven .pricing-footer a i {
+  margin: 5px;
+  top: 3px;
+}
