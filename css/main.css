@@ -1,0 +1,64 @@
+.description {
+  min-height: 50px;
+}
+
+.video {
+  margin: 20px auto;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+a.learn {
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  padding: 10px 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+a.learn:hover {
+  background: black;
+  color: #f4b400;
+  text-decoration: none;
+}
+
+.contact .input, .contact .textarea {
+  margin-bottom: 15px;
+  background: none;
+  color: #fff;
+  padding: 20px 20px;
+  box-shadow: none;
+  font-size: 1.4em;
+}
+
+.contact .btn-send {
+  background: none;
+  color: #fff;
+  border: 1px solid #ccc;
+  font-size: 1.4em;
+  width: 100%;
+}
+
+.contact .btn-send:hover {
+  background: #fff;
+  color: #0f9d58;
+}
+
+.contact .icons {
+  color: #ffffff;
+  font-size: 1.4em;
+  margin-right: 10px;
+}
+
+.contact .input::-webkit-input-placeholder { color: #ccc; }
+.contact .input:-moz-placeholder { color: #ccc; }
+.contact .input::-moz-placeholder { color: #ccc; }
+.contact .input:-ms-input-placeholder { color: #ccc; }
+
+.contact .textarea::-webkit-input-placeholder { color: #ccc; }
+.contact .textarea:-moz-placeholder { color: #ccc; }
+.contact .textarea::-moz-placeholder { color: #ccc; }
+.contact .textarea:-ms-input-placeholder { color: #ccc; }
