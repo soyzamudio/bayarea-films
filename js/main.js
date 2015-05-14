@@ -4,8 +4,8 @@ angular.module('BayareaApp', ['emailit'])
   $scope.successful = false;
 
   $scope.videos = [
-    {description: 'Enim quis commodo non ad occaecat consequat laborum ullamco ex.', url: 'https://vimeo.com/93715935', provider: 'vimeo'},
-    {description: 'Exercitation sunt reprehenderit nulla magna dolore elit laboris incididunt velit excepteur.', url: 'https://vimeo.com/90470946', provider: 'vimeo'},
+    {description: 'I created this video for GutterPatrol & WindowShine. It is currently in use on their Yelp page', url: 'https://vimeo.com/90470946', provider: 'vimeo'},
+    {description: 'A promo video for a hackathon. Ask me for the password to see this video', url: 'https://vimeo.com/126532210', provider: 'vimeo'},
     {description: 'Enim nisi est commodo sit dolore pariatur dolor ex cupidatat magna id labore ea ullamco.', url: 'https://vimeo.com/90433308', provider: 'vimeo'},
     {description: 'Id dolore commodo veniam officia fugiat incididunt ad.', url: 'https://www.youtube.com/watch?v=O6llByH8K8c', provider: 'youtube'},
   ];
