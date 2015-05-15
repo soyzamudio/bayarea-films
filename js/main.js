@@ -4,10 +4,10 @@ angular.module('BayareaApp', ['emailit'])
   $scope.successful = false;
 
   $scope.videos = [
-    {description: 'I created this video for GutterPatrol & WindowShine. It is currently in use on their Yelp page', url: 'https://vimeo.com/90470946', provider: 'vimeo'},
+    {description: 'Startups pitching to investors at Ruby Skye in SF.', url: 'https://www.youtube.com/watch?v=wJ5MCm96qtU', provider: 'youtube'},
     {description: 'A promo video for a hackathon. Ask me for the password to see this video', url: 'https://vimeo.com/126532210', provider: 'vimeo'},
-    {description: 'Enim nisi est commodo sit dolore pariatur dolor ex cupidatat magna id labore ea ullamco.', url: 'https://vimeo.com/90433308', provider: 'vimeo'},
-    {description: 'Id dolore commodo veniam officia fugiat incididunt ad.', url: 'https://www.youtube.com/watch?v=O6llByH8K8c', provider: 'youtube'},
+    {description: 'I created this video for GutterPatrol & WindowShine. It is currently in use on their Yelp page', url: 'https://vimeo.com/90470946', provider: 'vimeo'},
+    {description: 'A 2 min video about a guy using Stylematic to get the girl.', url: 'https://www.youtube.com/watch?v=QxMwQzZCXic', provider: 'youtube'}
   ];
 
   $scope.sendEmail = function(form) {
